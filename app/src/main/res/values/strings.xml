@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuperHeroProject</string>
+    <string name="create_super_hero">Create Super Hero</string>
+    <string name="super_hero_s_name">Super Hero\'s Name</string>
+    <string name="super_hero_s_age">Super Hero\'s Age</string>
+    <string name="super_hero_s_occupation">Super Hero\'s Occupation</string>
+    <string name="name_age_occupation">Name-Age-Occupation</string>
+</resources>

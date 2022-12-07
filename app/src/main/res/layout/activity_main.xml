@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/super_hero_s_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ageText"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/super_hero_s_age"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/occupationText"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/super_hero_s_occupation"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="createSuperHero"
+        android:text="@string/create_super_hero"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#00BCD4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="279dp"
+        android:text="@string/name_age_occupation"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
